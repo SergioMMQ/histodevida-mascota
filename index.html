@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi Página</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section>
-        <h2>Contenido Principal</h2>
-        <p>Bienvenido a mi página de inicio. Aquí puedes encontrar información sobre nosotros y nuestros servicios.</p>
-    </section>
-
-    <footer>
-        <p>Derechos de Autor &copy; 2024 Mi Empresa</p>
-    </footer>
+    <div class="login-container">
+        <h2>Iniciar sesión</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
 </body>
 </html>
+
