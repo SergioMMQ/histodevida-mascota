@@ -7,6 +7,9 @@
     $usuario = $_POST['usuario'];
     $contrasena = $_POST['contrasena'];
 
+    //Encriptacion de contraseña
+    $contrasena = hash('sha512', $contrasena);
+
     $query = "INSERT INTO usuarios (nombre_completo, correo, usuario, contrasena)
               VALUES ('$nombre_completo', '$correo', '$usuario', '$contrasena')";
         //verificar que el correo no se repita en la base de datos
