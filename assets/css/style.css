@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url();
+    background-image: url(../img/mascota_perro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

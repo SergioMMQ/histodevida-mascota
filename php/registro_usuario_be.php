@@ -55,7 +55,7 @@
         <script>
             alert("Intentelo de nuevo el usuario no fue almacenado");
             window.location = "../index.php"
-            </script>
+            </script>1
         ';
 
     }
