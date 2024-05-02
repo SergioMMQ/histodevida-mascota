@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../img/mascota_perro.jpg);
+    background-image: url(../img/jaily.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,7 +33,7 @@ main{
     display: flex;
     justify-content: center;
     backdrop-filter: blue(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: rgba(21, 237, 230, 0.568);
 }
 
 .caja-trasera div{
@@ -66,7 +66,7 @@ main{
 
 .caja-trasera button:hover{
     background: #fff;
-    color: #46a2fd;
+    color: #00d3a2;
 }
 
 /*Formularios*/
@@ -93,7 +93,7 @@ main{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46a2fd;
+    color: #00d3a2;
 }
 
 .contenedor_registro form input{
@@ -111,7 +111,7 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46a2fd; 
+    background: #00d3a2; 
     color: white;
     cursor: pointer;
     outline: none;
